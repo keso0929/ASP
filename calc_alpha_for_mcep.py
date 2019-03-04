@@ -8,7 +8,7 @@ by brute-forcing over different values from 0 to 1.
 
 import numpy as np
 
-SAMPFREQ = 16000 # Sampling frequency (24000Hz)
+SAMPFREQ = 16000 # Sampling frequency
 
 def calc_alpha_for_mcep(sampfreq=24000):
     num_points = 1000
